@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <title>NBA გუნდები</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>NBA გუნდები</h1>
+  </header>
+
+  <main>
+    <h2>კალათბურთის ელიტა</h2>
+    <p>
+      NBA — ამერიკის კალათბურთის ეროვნული ასოციაცია, არის პლანეტის ყველაზე პრესტიჟული ლიგა,
+      სადაც მსოფლიოს საუკეთესო მოთამაშეები გამოდიან. თითოეულ გუნდს თავისი უნიკალური ისტორია და გულშემატკივართა არმია ჰყავს.
+    </p>
+
+    <div class="image-row">
+      <div class="img-box">
+        <img src="images/Lakers.jpg" alt="Los Angeles Lakers">
+      </div>
+      <div class="img-box">
+        <img src="images/GSW.jpg" alt="Golden State Warriors">
+      </div>
+      <div class="img-box">
+        <img src="images/Bulls.jpg" alt="Chicago Bulls">
+      </div>
+    </div>
+
+    <h2>გუნდების რეიტინგი</h2>
+    <p>ქვემოთ მოცემულ ცხრილში ნაჩვენებია რამდენიმე გამორჩეული გუნდი, მათი ქულები და ქალაქები:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Team</th>
+          <th>Points</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Los Angeles Lakers</td>
+          <td>95,430</td>
+          <td>Los Angeles</td>
+        </tr>
+        <tr class="highlight">
+          <td>2</td>
+          <td>Golden State Warriors</td>
+          <td>88,900</td>
+          <td>San Francisco</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Chicago Bulls</td>
+          <td>76,500</td>
+          <td>Chicago</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <label for="rating">გუნდის შეფასება (1-5):</label>
+    <input type="number" id="rating" name="rating" min="1" max="5" />
+  </main>
+
+  <footer>
+    © 2025 NBA Teams | შექმნილია გუგას მიერ.
+  </footer>
+
+</body>
+</html>
