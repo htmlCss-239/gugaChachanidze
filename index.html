@@ -1,73 +1,93 @@
 <!DOCTYPE html>
 <head>
-  <title>NBA გუნდები</title>
-  <link rel="stylesheet" href="style.css"/>
+  <title>დავალება - ვებ ელემენტები</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>NBA გუნდები</h1>
-  </header>
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Gallery</a>
+    <a href="#">Services</a>
+    <a href="#">Tutorials</a>
+    <a href="#">Contact</a>
+  </nav>
 
-  <main>
-    <h2>კალათბურთის ელიტა</h2>
+  <div class="content">
+
     <p>
-      NBA — ამერიკის კალათბურთის ეროვნული ასოციაცია, არის პლანეტის ყველაზე პრესტიჟული ლიგა,
-      სადაც მსოფლიოს საუკეთესო მოთამაშეები გამოდიან. თითოეულ გუნდს თავისი უნიკალური ისტორია და გულშემატკივართა არმია ჰყავს.
+      ვებ ტექნოლოგიები სწრაფად ვითარდება და მნიშვნელოვან როლს ასრულებს თანამედროვე ციფრულ სამყაროში. 
+      HTML უზრუნველყოფს ვებ გვერდის სტრუქტურას, ხოლო CSS მის ვიზუალურ მხარეს. 
+      JavaScript კი ინტერქტიულობას და ფუნქციონალს მატებს ვებსაიტს. 
+      თითოეული ეს ტექნოლოგია ერთმანეთთან მჭიდროდაა დაკავშირებული და ქმნის სრულფასოვან მომხმარებლის გამოცდილებას. 
+      სწორი გამოყენება საშუალებას იძლევა ეფექტური და თანამედროვე ვებსაიტების შექმნა.
     </p>
 
-    <div class="image-row">
-      <div class="img-box">
-        <img src="images/Lakers.jpg" alt="Los Angeles Lakers">
+    <div class="columns">
+      <div class="column">
+        <h3>HTML</h3>
+        <p>HTML განსაზღვრავს ვებსაიტის სტრუქტურას და შინაარსს. იგი წარმოადგენს ჩონჩხს, რომელზეც შენდება ყველა ელემენტი.</p>
       </div>
-      <div class="img-box">
-        <img src="images/GSW.jpg" alt="Golden State Warriors">
+      <div class="column">
+        <h3>CSS</h3>
+        <p>CSS გამოიყენება სტილების განსასაზღვრად, რათა გვერდი გამოიყურებოდეს მიმზიდველად და თანამედროვე მოთხოვნებს შეესაბამებოდეს.</p>
       </div>
-      <div class="img-box">
-        <img src="images/Bulls.jpg" alt="Chicago Bulls">
+      <div class="column">
+        <h3>JavaScript</h3>
+        <p>JavaScript ამატებს დინამიკურ ქცევას, ანიმაციებსა და მომხმარებლის ინტერაქციას ვებსაიტზე.</p>
       </div>
     </div>
 
-    <h2>გუნდების რეიტინგი</h2>
-    <p>ქვემოთ მოცემულ ცხრილში ნაჩვენებია რამდენიმე გამორჩეული გუნდი, მათი ქულები და ქალაქები:</p>
+    <p>
+      თანამედროვე ვებსაიტებისთვის ძალიან მნიშვნელოვანია კარგი მომხმარებლის ინტერფეისი და გამოცდილება (UI/UX). 
+      სწორი დიზაინი ზრდის ვიზიტორების დაინტერესებას და ამარტივებს ინფორმაციის მოძიებას. 
+      ინტუიციური ნავიგაცია და სწრაფი რეაგირება უზრუნველყოფს პოზიტიურ შთაბეჭდილებას. 
+      ცხრილებისა და სვეტების გამოყენება ინფორმაციის მკაფიოდ ორგანიზებას უწყობს ხელს. 
+      UX დიზაინი აერთიანებს ტექნოლოგიასა და მომხმარებლის საჭიროებებს.
+    </p>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Rank</th>
-          <th>Team</th>
-          <th>Points</th>
-          <th>City</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Los Angeles Lakers</td>
-          <td>95,430</td>
-          <td>Los Angeles</td>
-        </tr>
-        <tr class="highlight">
-          <td>2</td>
-          <td>Golden State Warriors</td>
-          <td>88,900</td>
-          <td>San Francisco</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Chicago Bulls</td>
-          <td>76,500</td>
-          <td>Chicago</td>
-        </tr>
-      </tbody>
-    </table>
+  </div>
 
-    <label for="rating">გუნდის შეფასება (1-5):</label>
-    <input type="number" id="rating" name="rating" min="1" max="5" />
-  </main>
+  <div class="social-bar">
+    <a href="#"><img src="https://img.icons8.com/color/48/facebook.png" alt="Facebook"></a>
+    <a href="#"><img src="https://img.icons8.com/color/48/twitter.png" alt="Twitter"></a>
+    <a href="#"><img src="https://img.icons8.com/color/48/instagram-new.png" alt="Instagram"></a>
+    <a href="#"><img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub"></a>
+    <a href="#"><img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube"></a>
+  </div>
 
-  <footer>
-    © 2025 NBA Teams | შექმნილია გუგას მიერ.
+  <div class="comment-box">
+    <img src="GiannisPFP.jpg" alt="Giannis">
+    <div class="comment-content">
+      <p><strong>Add a comment</strong></p>
+      <textarea placeholder="What is your view?"></textarea>
+      <div class="buttons">
+        <button class="send">SEND ➜</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-section">
+      <h4>USEFUL LINKS</h4>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <a href="#">Shop</a>
+      <a href="#">Blog</a>
+    </div>
+
+    <div class="footer-section">
+      <h4>Your email</h4>
+      <input type="email" placeholder="Your Email Address">
+      <button>Submit now</button>
+    </div>
+
+    <div class="footer-section">
+      <h4>CONTACT</h4>
+      <p>Terminal Mozaika<br>61 Davit Aghmashenebeli Ave</p>
+    </div>
   </footer>
 
 </body>
