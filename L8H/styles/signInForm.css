@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8fafc url("../images/BackgroundIMG.jpg");
+    background-size: cover;
+}
+
+.mergerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.signInDiv {
+    background-color: #ffffff;
+    width: 444px;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+}
+
+.welcomeText .welcome1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.welcomeText .welcome2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #111827;
+    margin-top: 5px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inputGroup label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #344054;
+}
+
+.inputGroup input {
+    height: 45px;
+    padding: 0 12px;
+    font-size: 14px;
+    border: 1px solid #DEDEDE;
+    border-radius: 6px;
+    outline: none;
+}
+
+.signInBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signInBtn input[type="submit"] {
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(90deg, rgba(98, 91, 247, 1) 0%, rgba(70, 62, 234, 1) 100%);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.signInBtn .forgot {
+    text-align: center;
+    font-size: 14px;
+    color: #6B7280;
+    cursor: pointer;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #9CA3AF;
+    font-size: 14px;
+}
+
+.divider span {
+    flex: 1;
+    height: 1px;
+    background-color: #E5E7EB;
+}
+
+.socialLogin .googleBtn {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.googleBtn {
+  background: linear-gradient(90deg, #6675f7 0%, #5700ff 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.googleBtn:hover {
+  box-shadow: 0 4px 12px rgba(87, 0, 255, 0.3);
+}
+
+.signUpPrompt {
+    text-align: center;
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.signUpPrompt a {
+    color: #625BF7;
+    font-weight: 600;
+}
